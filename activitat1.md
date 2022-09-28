@@ -52,12 +52,21 @@ Guido anuncia que deixara que dirigit el desenvolupament de python llavors des-d
 **Ampliament respatllat** Les sebes caracteristiques i funcionalitats fan que aquest llenguatge siqui molt interessant. Per aixo, python ha generat una comunitat d'usuaris molt gran al seu alrededor que pot ser utilitzada quan volem trovar informacio o demanar ajuda per desenvolupar el codi
 
 - *Imperatiu, declaratiu, OOP...*
+
+**Imperatiu** ja que li indiquem una secuencia de operacions que ha de realitzar
+
 - *Compilat, interpretat, híbrid...*
 
 **Llenguatge interpretat**: No es necessari compilar amb Python ja que els interpretes que utilitzen aquest llenguatge s'encarreguen d'executar els programes a traves d'escripts propis
 
 - *Principals novetats o aportacions respecte altres llenguatges.*
+
+
+
 - *Avantatges i inconvenients respecte altres llenguatges.*
+
+
+
 - *Principals entorns on es fa servir el llenguatge.*
 - *Exemple de codi (valoraré especialment si mostreu que ho heu implementat i provat).*
 - *Hola mòn (Molt fàcil de trobar).*
@@ -97,6 +106,7 @@ Guido anuncia que deixara que dirigit el desenvolupament de python llavors des-d
 - *Demanar el nom a l'usuari i mostrar-lo (haureu de buscar una mica més).*
 - *Buscar com estan les ofertes de treball a Infojobs del llenguatge.*
 - *WebGrafia.*
+
 #SQL
 
 - *Naixement, creadors i evolució històrica.*
