@@ -37,29 +37,24 @@ A finals dels 80 Guido van Rossum va crear el llenguatje Python, va començar a 
 va publicar la primera versio publica (0.9.0) la 1.0 al 94, la 2.0 al 2000 i la 3.0 al 2008.
 
 fins el 2018 el desenvolupament de python ha estat dirigit per Guido van Rossum, amb la fundacio "Python Software Foundation". El juliol de 2018
-Guido anuncia que deixara que dirigit el desenvolupament de python llavors des-de 2019 el desenvolupament de python ha estat dirigit per un consell
-de 5 membres escollits entre els desarrolladors de python y que cada any es renoven
+Guido anuncia que deixara que dirigit el desenvolupament de python llavors des-de 2019 el desenvolupament de python ha estat dirigit per un consell de 5 membres escollits entre els desarrolladors de python y que cada any es renoven
 
 - *Característiques del llenguatge.*
 
-**Programacio orientada a Objectes**: aixo significa que el codi s'organitza en unitats denominades clases i objectes, aixo permet representar conceptes
-cotidians en un programa
+**Programacio orientada a Objectes**: aixo significa que el codi s'organitza en unitats denominades clases i objectes, aixo permet representar conceptes cotidians en un programa
 
-**multiplataforma**: Aquest esta disponibles en els principals sistemes operatius.. Linux, Windows, Unix, MacOS... es a dir que aquest pot ser executat
-en casi cualsevol sistepa operatiu sempre i quan porti un interpret adequat
+**multiplataforma**: Aquest esta disponibles en els principals sistemes operatius.. Linux, Windows, Unix, MacOS... es a dir que aquest pot ser executat en casi cualsevol sistepa operatiu sempre i quan porti un interpret adequat
 
 **Tipat Dinamic**: Aixo permet que les variables no tinguin que especificar el seu tipus, aquestes adopten un tipus en funcio del valor que se li assigne
 
 **Open Source**: Python es un llenguatge de codi obert, per lo que no requereix de llicencies de pago per treballar amb ell
 
-**Ampliament respatllat** Les sebes caracteristiques i funcionalitats fan que aquest llenguatge siqui molt interessant. Per aixo, python ha generat
-una comunitat d'usuaris molt gran al seu alrededor que pot ser utilitzada quan volem trovar informacio o demanar ajuda per desenvolupar el codi
+**Ampliament respatllat** Les sebes caracteristiques i funcionalitats fan que aquest llenguatge siqui molt interessant. Per aixo, python ha generat una comunitat d'usuaris molt gran al seu alrededor que pot ser utilitzada quan volem trovar informacio o demanar ajuda per desenvolupar el codi
 
 - *Imperatiu, declaratiu, OOP...*
 - *Compilat, interpretat, híbrid...*
 
-**Llenguatge interpretat**: No es necessari compilar amb Python ja que els interpretes que utilitzen aquest llenguatge s'encarreguen d'executar els programes
-a traves d'escripts propis
+**Llenguatge interpretat**: No es necessari compilar amb Python ja que els interpretes que utilitzen aquest llenguatge s'encarreguen d'executar els programes a traves d'escripts propis
 
 - *Principals novetats o aportacions respecte altres llenguatges.*
 - *Avantatges i inconvenients respecte altres llenguatges.*
