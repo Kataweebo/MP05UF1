@@ -184,6 +184,28 @@ inconvenients
 s'utilitza per a entorns d'aplicacions GUI d'escriptori, aplicacions web, aplicacions movils, aplicacions empresarials, " " cientifiques, servidors web i d'aplicacions, sistemes integrats..
 
 - *Exemple de codi (valoraré especialment si mostreu que ho heu implementat i provat).*
+
+Aques codi quan l'executes mostra de -50 fins 50 dient si el numero es parell o imparell
+
+```
+public class exercicibucle {
+    public static void main(String[] args) {
+        byte comptador =-50;
+
+        while (comptador <= 50){
+            System.out.print(comptador+ " es ");
+            if(comptador % 2 == 0) System.out.println(" parell");
+            else System.out.println(" imparell");
+            comptador = (byte) (comptador+1);
+        }
+        System.out.println("has sortit del bucle");
+    }
+}
+```
+
+![image](https://user-images.githubusercontent.com/95549844/193092044-55489547-5e59-4208-9ab8-864bac9c5653.png)
+
+
 - *Hola mòn (Molt fàcil de trobar).*
 
 ``` 
@@ -195,6 +217,21 @@ class HelloWorld {
 ```
 
 - *Demanar el nom a l'usuari i mostrar-lo (haureu de buscar una mica més).*
+
+```
+import java.util.Scanner;
+
+public class hellouser {
+    public static void main(String[] args) {
+        Scanner input  = new Scanner(System.in);
+        System.out.println("Enter your Name");
+        String nom = input.next();
+
+        System.out.println("Hello "+ nom);
+    }
+}
+```
+
 - *Buscar com estan les ofertes de treball a Infojobs del llenguatge.*
 
 ![image](https://user-images.githubusercontent.com/95549844/193028215-971871eb-754e-4440-8ada-a711eb6f3ed0.png)
@@ -212,17 +249,113 @@ https://spa.myservername.com/what-is-java-used
 #C#
 
 - *Naixement, creadors i evolució històrica.*
+
+Andrés Hejlsberg va decidir formaar al 1999 un equip de treball per crear un nou llenguatge de programacio, al principi el nom inicial va ser Cool (c Object Oriented Language) que avui en dia coneixem com C#.
+
+la seba primera versio era molt semblant a Java, de fet aquest va ser creat per ser una alternativa de Java
+
 - *Característiques del llenguatge.*
+
+les caracteristiques principals d'aquest llenguatge son:
+
+-sintaxis sencilla
+-sistema de tipo unificat (permet realitzar operacions comuns i que tots els valors es puguin emmagatzemar transportar i utilitzar de forma coherent)
+-orientacio a components (pots definir propietats sense necessitat de crear metodes)
+-Biblioteques de clases
+-Integracions amb altres llenguatges 
+-multifil, pots dividir el codi en multiples execucions treball en paral·lel..
+
 - *Imperatiu, declaratiu, OOP...*
+
+C# es un llenguatge de tipus imperatiu
+
 - *Compilat, interpretat, híbrid...*
+
+es un llenguatge que es compila a un llenguatge intermig i despres aquest es compilat al codi de cada maquina la primera vegada que s'utilitza
+
 - *Principals novetats o aportacions respecte altres llenguatges.*
 - *Avantatges i inconvenients respecte altres llenguatges.*
+
+avantatges:
+
+-Declaracions a l'espai de noms: en començar a programar alguna cosa, es pot definir una o més classes dins d'un mateix espai de noms. 
+-Tipus de dades: a C# hi ha un rang més ampli i definit de tipus de dades que els que es troben a C, C++ o Java. 
+-Atributs: cada membre d'una classe té un atribut daccés del tipus públic, protegit, intern, intern protegit i privat. 
+-Pas de paràmetres: aquí es pot declarar els mètodes perquè acceptin un nombre variable de paràmetres. Per defecte, el passi de paràmetres és per valor, tret que s'utilitzi la paraula reservada ref, la qual indica que el passi és per referència.
+
+Els inconvenints:
+
+-els principals inconvenients es la portabilitat i la dificultat del desenvolupament d'un software complet amb C#
+-la curva d'aprenetatge es mes llarga
+-la biblioteca que porta per defecte no es molt amplia i es tenen que utilitzar de tercers
+
 - *Principals entorns on es fa servir el llenguatge.*
+
+Aquest llenguatge es utilitzat majoritariament per fer videojocs, l'utilitza el motor grafic "unity" per escriure els scripts
+
 - *Exemple de codi (valoraré especialment si mostreu que ho heu implementat i provat).*
+
+Aquest codi el que fa es crear un directori
+
+```
+namespace EjemploCrearDirectorio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string ruta = @"D:\dev\proyCs\archivos\directorio_nuevo";
+            if (!Directory.Exists(ruta))
+            {
+                Console.WriteLine("Creando el directorio: {0}", ruta);
+                DirectoryInfo di = Directory.CreateDirectory(ruta);
+            }
+            Console.WriteLine("Presiona Enter para terminar.");
+            var name = Console.ReadLine();
+        }
+    }
+```
+
 - *Hola mòn (Molt fàcil de trobar).*
+
+```
+namespace HelloWorld
+{
+    class Hello {         
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Hello World!");
+        }
+    }
+}
+```
+
 - *Demanar el nom a l'usuari i mostrar-lo (haureu de buscar una mica més).*
+
+```
+class MainClass {
+  public static void Main (string[] args) {
+    Console.WriteLine ("Please enter your name:");
+    string name = Console.ReadLine();
+    Console.WriteLine("Hello {0}", name); 
+   }
+}
+```
+
 - *Buscar com estan les ofertes de treball a Infojobs del llenguatge.*
+
+![image](https://user-images.githubusercontent.com/95549844/193122352-06e038de-291d-482f-b175-b1f4bd6cce22.png)
+
+
 - *WebGrafia.*
+
+https://social.msdn.microsoft.com/Forums/es-ES/6a73a0de-2d41-4df7-8fcc-56bc7fc913d8/intrpretes-c?forum=vcses#:~:text=C%23%20no%20es%20interpretado%2C%20es,primera%20vez%20que%20se%20ejecuta.
+
+https://www.tokioschool.com/noticias/c-que-es/#:~:text=Andr%C3%A9s%20Hejlsberg%20decidi%C3%B3%20formar%20un,de%20programaci%C3%B3n%20orientado%20a%20objetivos.
+https://es.quora.com/Cu%C3%A1les-son-las-ventajas-y-desventajas-de-C
+
+http://programacion1abundiz.blogspot.com/2009/09/ventajas-del-c-y-desventajas.html
+
 
 #SQL
 
