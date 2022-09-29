@@ -140,19 +140,74 @@ https://similaranswer.es/para-que-se-usa-principalmente-python/
 
 - *Naixement, creadors i evolució històrica.*
 
+Java va naixer el 1991 desarrollat en els seus inicis per James Gosling conegut principalment amb el nom "OAK" posteriorment cambiat a Green per problemes legals, finalment amb la denominacio actual Java.
 
+La primera versio del llenguatge Java es publicada per Sun Microsystems en el 1995 i es en la versio del llenguatge JDK 1.0.2 al 1996 quan pasa a dir-se Java
 
 - *Característiques del llenguatge.*
+
+les principals caracteristiques de java son:
+
+- Orientacio a objectes
+- Es robust el que significa que realitza verificacions en busca de problemes
+- la seva seguretat elimina en el llenguatge caracteristiques com els punters o el casting implicit que fan els compiladors de C i C++, d'aquesta forma s'empidex el acces il·legal a la memoria 
+- es un llenguatge porbale 
+
 - *Imperatiu, declaratiu, OOP...*
+
+java es un llenguatge imperatiu, segueix una serie de indicacions que ha de seguir
+
 - *Compilat, interpretat, híbrid...*
+
+java es un llenguatge interpretat per tant no es compila
+
 - *Principals novetats o aportacions respecte altres llenguatges.*
 - *Avantatges i inconvenients respecte altres llenguatges.*
+
+avantatges:
+
+-curva d'aprenentatje curta
+-multiplataforma
+-lliberacio de memoria
+-compatible amb llibreries estandar i editor
+-ofereix gestio d'errors
+
+inconvenients
+
+-requereix experiencia de programacio
+-es de sintaxis complexa
+-es depenent del JVM
+-els codis escrits son detallats 
+
 - *Principals entorns on es fa servir el llenguatge.*
+
+s'utilitza per a entorns d'aplicacions GUI d'escriptori, aplicacions web, aplicacions movils, aplicacions empresarials, " " cientifiques, servidors web i d'aplicacions, sistemes integrats..
+
 - *Exemple de codi (valoraré especialment si mostreu que ho heu implementat i provat).*
 - *Hola mòn (Molt fàcil de trobar).*
+
+``` 
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
+```
+
 - *Demanar el nom a l'usuari i mostrar-lo (haureu de buscar una mica més).*
 - *Buscar com estan les ofertes de treball a Infojobs del llenguatge.*
+
+![image](https://user-images.githubusercontent.com/95549844/193028215-971871eb-754e-4440-8ada-a711eb6f3ed0.png)
+
+en infojobs hi han mes ofertes de java que no de python
+
+
 - *WebGrafia.*
+
+https://www.crehana.com/blog/desarrollo-web/ventajas-desventajas-java/
+http://www.itlp.edu.mx/web/java/Tutorial%20de%20Java/Intro/carac.html
+https://www.manualweb.net/java/historia-java/#:~:text=El%20lenguaje%20Java%20fue%20desarrollado,Java%2C%20corr%C3%ADa%20el%20a%C3%B1o%201996.
+https://spa.myservername.com/what-is-java-used
 
 #C#
 
