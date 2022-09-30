@@ -1,35 +1,5 @@
-Activitat 1
-Es tracta de que feu un treball analitzant les principals característiques dels principals llenguatges de programació segons l'índex TIOBE que mesura la popularitat d'un llenguatge segons les referències que se'n fan a la Web.
 
-Haureu d’escollir Python i Java, a més de 2 llenguatges més del TOP 20 que us resultin interessants, 4 llenguatges en total.
-
-D'aquests llenguatges heu de comentar obligatòriament els següents aspectes:
-
-Naixement, creadors i evolució històrica.
-Característiques del llenguatge.
-Imperatiu, declaratiu, OOP...
-Compilat, interpretat, híbrid...
-Principals novetats o aportacions respecte altres llenguatges.
-Avantatges i inconvenients respecte altres llenguatges.
-Principals entorns on es fa servir el llenguatge.
-Exemple de codi (valoraré especialment si mostreu que ho heu implementat i provat).
-Hola mòn (Molt fàcil de trobar).
-Demanar el nom a l'usuari i mostrar-lo (haureu de buscar una mica més).
-Buscar com estan les ofertes de treball a Infojobs del llenguatge.
-WebGrafia.
-Valoraré molt especialment que feu un treball personal, i que no us limiteu a enganxar informació trobada a Internet.
-
-Intenteu entendre els termes tècnics que feu servir, i si teniu algun dubte podeu preguntar.
-
-No serveix de res fer un treball que no entengueu vosaltres mateixos.
-
-L’aspecte en un treball sempre és important.
-
-Intenteu ser una mica polits, i sobretot, doneu un repàs a les faltes d'ortografia.
-
-Podeu fer servir imatges rellevants.
-
-#Python
+# Python
 
 - *Naixement, creadors i evolució històrica.*
 
@@ -58,10 +28,6 @@ Guido anuncia que deixara que dirigit el desenvolupament de python llavors des-d
 - *Compilat, interpretat, híbrid...*
 
 **Llenguatge interpretat**: No es necessari compilar amb Python ja que els interpretes que utilitzen aquest llenguatge s'encarreguen d'executar els programes a traves d'escripts propis
-
-- *Principals novetats o aportacions respecte altres llenguatges.*
-
-
 
 - *Avantatges i inconvenients respecte altres llenguatges.*
 
@@ -136,7 +102,7 @@ https://www.mclibre.org/consultar/python/otros/historia.html
 https://keepcoding.io/blog/ventajas-y-desventajas-de-python/
 https://similaranswer.es/para-que-se-usa-principalmente-python/
 
-#Java
+# Java
 
 - *Naixement, creadors i evolució històrica.*
 
@@ -161,7 +127,6 @@ java es un llenguatge imperatiu, segueix una serie de indicacions que ha de segu
 
 java es un llenguatge interpretat per tant no es compila
 
-- *Principals novetats o aportacions respecte altres llenguatges.*
 - *Avantatges i inconvenients respecte altres llenguatges.*
 
 avantatges:
@@ -246,7 +211,7 @@ http://www.itlp.edu.mx/web/java/Tutorial%20de%20Java/Intro/carac.html
 https://www.manualweb.net/java/historia-java/#:~:text=El%20lenguaje%20Java%20fue%20desarrollado,Java%2C%20corr%C3%ADa%20el%20a%C3%B1o%201996.
 https://spa.myservername.com/what-is-java-used
 
-#C#
+# C#
 
 - *Naixement, creadors i evolució històrica.*
 
@@ -273,7 +238,6 @@ C# es un llenguatge de tipus imperatiu
 
 es un llenguatge que es compila a un llenguatge intermig i despres aquest es compilat al codi de cada maquina la primera vegada que s'utilitza
 
-- *Principals novetats o aportacions respecte altres llenguatges.*
 - *Avantatges i inconvenients respecte altres llenguatges.*
 
 avantatges:
@@ -350,14 +314,12 @@ class MainClass {
 - *WebGrafia.*
 
 https://social.msdn.microsoft.com/Forums/es-ES/6a73a0de-2d41-4df7-8fcc-56bc7fc913d8/intrpretes-c?forum=vcses#:~:text=C%23%20no%20es%20interpretado%2C%20es,primera%20vez%20que%20se%20ejecuta.
-
 https://www.tokioschool.com/noticias/c-que-es/#:~:text=Andr%C3%A9s%20Hejlsberg%20decidi%C3%B3%20formar%20un,de%20programaci%C3%B3n%20orientado%20a%20objetivos.
 https://es.quora.com/Cu%C3%A1les-son-las-ventajas-y-desventajas-de-C
-
 http://programacion1abundiz.blogspot.com/2009/09/ventajas-del-c-y-desventajas.html
 
 
-#SQL
+# SQL
 
 - *Naixement, creadors i evolució històrica.*
 
@@ -385,7 +347,6 @@ sql es un llenguatge declaratiu osigue que el codi l'escrivim de forma clara i o
 
 sql es un llenguatge interpretat, osigue no existeixen pasos complexes de compilacio ni de edicio de enllaços i resultats inmediats
 
-- *Principals novetats o aportacions respecte altres llenguatges.*
 - *Avantatges i inconvenients respecte altres llenguatges.*
 
  Els avantatges de sql son
@@ -405,7 +366,6 @@ i els inconvenients
         
 s'utilitzen mes en la salud, la banca, educacio, telecomunicacions, defensa....
         
-- *Exemple de codi (valoraré especialment si mostreu que ho heu implementat i provat).*
 - *Hola mòn (Molt fàcil de trobar).*
     
  ```       
@@ -416,10 +376,14 @@ SELECT COUNT(*) FROM helloworld;
 
 SELECT * FROM helloworld WHERE phrase = "Hello, World!";
 ```
-- *Demanar el nom a l'usuari i mostrar-lo (haureu de buscar una mica més).*
 - *Buscar com estan les ofertes de treball a Infojobs del llenguatge.*
 
 ![image](https://user-images.githubusercontent.com/95549844/193333582-a235f6c9-d805-4471-82ef-632e78a2aa50.png)
 
 
 - *WebGrafia.*
+        
+https://www.learnsqlonline.org/en/Hello,_World!#:~:text=Here%20is%20the%20basic%20syntax,equal%20to%20Hello%2C%20World!%20.
+https://guidocutipa.blog.bo/principales-ventajas-desventajas-bases-de-datos-relacionales-no-relacionales-nosql-vs-sql/
+https://bigdata-analytics.es/sql/       
+https://datascientest.com/es/sql-todo-lo-que-necesitas-saber-sobre-el-lenguaje-de-programacion-de-bases-de-datos#:~:text=La%20historia%20de%20SQL%20comienza,y%20un%20n%C3%BAmero%20de%20tel%C3%A9fono.
