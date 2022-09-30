@@ -360,14 +360,66 @@ http://programacion1abundiz.blogspot.com/2009/09/ventajas-del-c-y-desventajas.ht
 #SQL
 
 - *Naixement, creadors i evolució històrica.*
+
+La historia de SQL començla al 1969 quan l'investigador de IBM Edgar F. Codd definex el model de base de dades relacional. Aquest model es basa en la asociacio de <<claus>> amb varies dades.
+
+Uns anys mes tard IBM va crear un lenguatge per als sistemes de gestio de bases relacionals basades en el traball de Codd, que es va dir SEQUEL <<Structured English Query Language>> i mes tard despres de variesimplementacions i revisions van pasar a dir-se SQL
+    
+Les proves van començar el 1978, i després IBM va començar a desenvolupar productes comercials com SQL/DS el 1981 i DB2 el 1983. El van seguir altres proveïdors, com Sybase, Ingres o Oracle, que va llançar el seu primer producte el 1979.
+
+
+
 - *Característiques del llenguatge.*
+        
+-Integritat de dades, amb aixo ens referim a que les dades siguin correctes i completes      
+-Llenguatge estandaritzat, aixo vol dir que es poden desplegar implementacions del mateix llenguatge en diferents sistemes
+-Sencillez i claritat sql es un llenguatge integral desde el punt de vista conceptual, aixo vol dir que sql es un llenguatge unificat, clar simple i de facil comprension
+-Flexibilitat, sql es un llenguatge flexible a la hora d'implantar solucions
+       
+
 - *Imperatiu, declaratiu, OOP...*
+
+sql es un llenguatge declaratiu osigue que el codi l'escrivim de forma clara i objectiva      
+
 - *Compilat, interpretat, híbrid...*
+
+sql es un llenguatge interpretat, osigue no existeixen pasos complexes de compilacio ni de edicio de enllaços i resultats inmediats
+
 - *Principals novetats o aportacions respecte altres llenguatges.*
 - *Avantatges i inconvenients respecte altres llenguatges.*
+
+ Els avantatges de sql son
+        
+-Portabilitat
+-Escritura simple
+-Estandars ben definits
+        
+i els inconvenients
+   
+-dificultats de creixement, quan aquestes base de dades començen a creixer l'almacenament i el cost de manteniment es un problema
+-complexitat en la instal·lacio, algunes base de dades sql es veuen condicionades per el sistema operatiu en el que funcionaran i els requisits dels servidors i ordenadors
+-dificultat en la interfaç, son mes complexes que afetgir alguna linea de codi
+
+        
 - *Principals entorns on es fa servir el llenguatge.*
+        
+s'utilitzen mes en la salud, la banca, educacio, telecomunicacions, defensa....
+        
 - *Exemple de codi (valoraré especialment si mostreu que ho heu implementat i provat).*
 - *Hola mòn (Molt fàcil de trobar).*
+    
+ ```       
+ CREATE TABLE helloworld (phrase TEXT);
+INSERT INTO helloworld VALUES ("Hello, World!");
+INSERT INTO helloworld VALUES ("Goodbye, World!");
+SELECT COUNT(*) FROM helloworld;       
+
+SELECT * FROM helloworld WHERE phrase = "Hello, World!";
+```
 - *Demanar el nom a l'usuari i mostrar-lo (haureu de buscar una mica més).*
 - *Buscar com estan les ofertes de treball a Infojobs del llenguatge.*
+
+![image](https://user-images.githubusercontent.com/95549844/193333582-a235f6c9-d805-4471-82ef-632e78a2aa50.png)
+
+
 - *WebGrafia.*
