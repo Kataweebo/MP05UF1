@@ -121,11 +121,11 @@ les principals caracteristiques de java son:
 
 - *Imperatiu, declaratiu, OOP...*
 
-java es un llenguatge imperatiu, segueix una serie de indicacions que ha de seguir
+java es un llenguatge ORIENTAT A OBJECTES, segueix una serie de indicacions que ha de seguir
 
 - *Compilat, interpretat, híbrid...*
 
-java es un llenguatge interpretat per tant no es compila
+java es un llenguatge COMPILAT PER A MÀQUINA VIRTUAL per tant no es compila
 
 - *Avantatges i inconvenients respecte altres llenguatges.*
 
@@ -232,7 +232,7 @@ les caracteristiques principals d'aquest llenguatge son:
 
 - *Imperatiu, declaratiu, OOP...*
 
-C# es un llenguatge de tipus imperatiu
+C# es un llenguatge de tipus ORIENTAT A OBJECTES
 
 - *Compilat, interpretat, híbrid...*
 
@@ -297,6 +297,8 @@ namespace HelloWorld
 - *Demanar el nom a l'usuari i mostrar-lo (haureu de buscar una mica més).*
 
 ```
+using System;
+
 class MainClass {
   public static void Main (string[] args) {
     Console.WriteLine ("Please enter your name:");
